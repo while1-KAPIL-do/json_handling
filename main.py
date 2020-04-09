@@ -6,9 +6,9 @@ def title(title,extra=" "):
 	print(title,extra,end="")
 	print("\n\n","-"*75,end="\n\n")
 	
-file_name = input("Please enter a file name : ")
+file_name = input("Please enter a file name : ") #f1.json
 
-path = "~/CCR/UserFiles/my_data_analysis/"
+path = "~/CCR/UserFiles/my_data_analysis/" # system path
 
 n = True
 while n:
